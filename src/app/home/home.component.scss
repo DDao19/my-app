@@ -1,0 +1,26 @@
+$border-style: 5px;
+
+span {
+  font-weight: bold;
+  background: lightgray;
+  border-radius: $border-style;
+  padding: .3em .8em;
+  cursor: pointer;
+  user-select: none;
+}
+
+span:hover {
+  background: darken(lightgray, 10%);
+}
+
+.play-container {
+  padding: 3em;
+  border: 1px solid lightgray;
+  margin-bottom: 1em;
+  border-radius: $border-style;
+
+  input {
+    padding: 1em;
+    margin-bottom: 2em;
+  }
+}
